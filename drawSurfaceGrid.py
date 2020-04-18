@@ -33,7 +33,7 @@ def expSpacing(p):
     v = p[1]
     return (u, log(v), 0)
 		
-def make1DVertexArray(spacing, cols, rows, colOffset, rowOffset):
+def make2DVertexArray(spacing, cols, rows, colOffset, rowOffset):
 	vertices = []
 	du = spacing[0]
 	dv = spacing[1]
